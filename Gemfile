@@ -21,3 +21,10 @@ end
 group :production do
   gem 'newrelic_rpm'
 end
+
+group :test do
+  gem 'rspec', '~> 2.8.0'
+  gem 'capybara', '~> 1.1.2'
+  gem 'rack-test', '~> 0.6.1'
+  gem 'mocha', '~> 0.10.3'
+end
